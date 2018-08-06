@@ -23,8 +23,20 @@ ul{
 }
 .body_frist{
     width: 100%;
-    height: 1189px;
+    height: 1389px;
     background: #fff;
+}
+.abc{
+    width: 1226px;
+    height: 200px;
+    margin: 0 auto;
+    /*background:#ff6700;*/
+    overflow: hidden;
+}
+.abc img{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
 }
 .header{
     width: 100%;
@@ -690,6 +702,7 @@ ul{
     margin-left: 14px;
     margin-bottom: 14px;
     float: left;
+    transition:all 0.3s 0s  linear;
 }
 .phone_bady_right li a{
     display:block;
@@ -732,6 +745,9 @@ ul{
     font-size: 12px;
     line-height: 22px;
     text-align: center;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 .phone_bady_right3{
     width: 110px;
@@ -872,13 +888,17 @@ ul{
     bottom:-100px;
     transition:all 0.3s 0s linear;
 }
-.appliance_body_right_small p{
+.appliance_body_right_small p {
     width: 169px;
     height: 38px;
     color: #fff;
     font-size: 12px;
-    line-height: 19px;
+    line-height: 25px;
     padding: 10px 29px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .appliance_body_right_small span{
     display:block;
